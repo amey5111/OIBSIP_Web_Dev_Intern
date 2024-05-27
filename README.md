@@ -10,6 +10,7 @@ Web Development projects developed during the training and Internship at OIB
 #### Task 4 : Login Authentication System:
 <a href="https://665420a69c181f438c8e155d--shiny-zabaione-d821c0.netlify.app/" target= "_blank">Deployed Link</a>
 ### UI ScreenShots
+
 ### Task 1: Calculator
 <img align= "left" height="400" width="20%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/Mobile%20User%20Interface/Task%201%20mobile_.jpg?raw=true" alt="HTML"></img>
 <img align= "right" height="400" width="75%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/task%201%20laptop.png?raw=true" alt="HTML"></img>
