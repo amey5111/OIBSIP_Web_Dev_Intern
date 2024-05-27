@@ -20,3 +20,9 @@ Web Development projects developed during the training and Internship at OIB
 ## Task 3: Basic Todo Application
 <img align= "left" height="400" width="20%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/Mobile%20User%20Interface/Task%203%20mobile.jpg?raw=true" alt="HTML"></img>
 <img align= "right" height="400" width="75%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/task%203%20laptop.png?raw=true" alt="HTML"></img>
+
+## Task 4: Login Authentication System
+<img align= "left" height="400" width="20%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/Mobile%20User%20Interface/Task%204%20Mobile%20screen%201.jpg?raw=true" alt="HTML"></img>
+<img align= "left" height="400" width="20%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/Mobile%20User%20Interface/Task%204%20Mobile%20screen%202.jpg?raw=true" alt="HTML"></img>
+<img align= "left" height="400" width="20%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/Mobile%20User%20Interface/Task%204%20Mobile%20screen%203.jpg?raw=true" alt="HTML"></img>
+<img align= "left" height="400" width="20%" src="https://github.com/amey5111/OIBSIP_Web_Dev_Intern/blob/main/Readme%20Images%20Folder/Mobile%20User%20Interface/Task%204%20Mobile%20screen%204.jpg?raw=true" alt="HTML"></img>
