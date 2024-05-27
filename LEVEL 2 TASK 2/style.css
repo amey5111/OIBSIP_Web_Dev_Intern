@@ -1,0 +1,426 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(1, 1, 58);
+    color: white;
+  }
+  
+  .navbar {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 19px;
+    background-color: #ff8c00; /* Orange color */
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+  }
+  .logo{
+    margin-top: 3px;
+    margin-left: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        width: 100%;
+        display: none; /* Hide the menu initially */
+        flex-direction: column;
+    }
+
+    .navbar li {
+        width: 100%;
+    }
+
+    .navbar li a {
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar .menu-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: 30px;
+    }
+}
+
+/* Responsive menu icon */
+.menu-icon {
+    display: none;
+    font-size: 25px;
+    color: white;
+}
+
+/* Show menu when menu-icon is clicked */
+.navbar.responsive ul {
+    display: flex;
+}
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+  }
+  
+  .navbar li a:hover {
+    background-color: white; /* Darker orange on hover */
+    color: #ff8c00;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect on hover */
+  }
+  
+  /* hero section starts here */
+  .herosSection{
+    display: flex;
+    justify-content: space-between;
+  }
+  .heroContainer{
+    font-size: 60px;
+    font-family: cursive;
+    height: fit-content;
+    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .quoteMainText{
+    color: #ff8c00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+  }
+  .and{
+    font-size: 100px;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .selfBelief{
+    border-bottom: 3px solid #ff8c00;
+  }
+  .hardWork{
+    margin-right: 10px;
+    border-bottom: 3px solid #ff8c00;
+  }
+  .heroSideImage{
+    padding: 3px 50px;
+  }
+
+  .heroSideImage > img{
+    border-radius: 25px;
+    height: 100vh;
+  }
+
+
+  /* hero section ends here */
+  /* career section starts here */
+  .careerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  /* career section ends here */
+  .statsSection {
+    display: flex;
+    justify-content: space-between;
+  }
+  .careerHeading{
+    font-size: 50px;
+    font-family: monospace;
+    text-transform: capitalize;
+    text-align: right;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ff8c00;
+  }
+  .careerLine{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 19%;
+    margin: 25px 0px;
+  }
+  .careerYear{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border-radius: 80%;
+    margin-bottom: 10px;
+    background-color: #ff8c00;
+  }
+  .careerText{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ff8c00;
+    border-radius: 25px;
+    padding: 12px 5px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .careerText:hover{
+    background-color: rgb(1, 1, 82);
+    color: #ff8c00;
+  }
+  .careerText > svg{
+    font-weight: bolder;
+    margin-left: auto;
+    margin: 10px auto 0px auto;
+  }
+  
+  .stats-container {
+    background-color: rgb(1, 1, 58);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 10px auto;
+    width: 40%;
+    font-size: 23px;
+  }
+  
+  .stats-container h2 {
+    text-align: right;
+    margin-bottom: 20px;
+    color: #ff8c00;
+    font-size: 45px;
+  }
+  em{
+    font-size: 65px;
+    font-weight: 900;
+  }
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ff8c00;
+    margin-bottom: 10px;
+    width: 60%;
+    margin: auto auto;
+    padding: 10px;
+  }
+  
+  .stat-label {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 480px) {
+    .stats-container {
+      padding: 10px;
+    }
+  
+    .stat-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .stat-label {
+      margin-bottom: 5px;
+    }
+  }
+  
+  .statsSideImage {
+    padding: 3px 10px;
+  }
+  
+  .statsSideImage > img {
+    border-radius: 25px;
+    height: 100vh;
+  }
+ /* stats container ends here  */
+/* Records container starts here */
+.recordsContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.recordsContainer > img{
+  margin: auto 0;
+  height: 100%;
+  width: 30%;
+  border: 3px solid white;
+  border-radius: 25px;
+  opacity: 80%;
+}
+.recordsHeading{
+  width: 145%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  border-top: 3px solid #ff8c00;
+  border-bottom: 3px solid #ff8c00;
+  border-radius: 12px;
+  text-align: center;
+}
+.recordsHeading > em{
+  font-size: 65px;
+}
+.recordsList{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.recordItemLeft{
+  border: 3px solid #ff8c00;
+  border-radius: 14px;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+.recordItemRight{
+  border: 3px solid #ff8c00;
+  border-radius: 14px;
+  width: 60%;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  padding: 10px;
+}
+.rank{
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid white; 
+  color: #ff8c00;
+  background-color: azure;
+  width: fit-content;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 25%;
+}
+.record{
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.recordItemLeft:hover{
+  background-color: rgb(13, 173, 236);
+  border: 3px solid white;
+}
+.recordItemRight:hover{
+  background-color: rgb(13, 173, 236);
+  border: 3px solid white;
+}
+/* Records container ends here */
+ /* awards container starts here */
+ .awardsHeading{
+  margin: 0px auto 30px auto;
+  text-align: center;
+  text-transform: capitalize;
+  display: flex;
+  font-size: 45px;
+  font-family: monospace;
+  width: 100%;
+ }
+ .awardsHeading >hr{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 50%;
+  background-color: #ff8c00;
+  border-radius: 5px;
+ }
+ .awardsHeading > div{
+  background-color: #ff8c00;
+  border-radius: 10px;
+  padding: 0 10px;
+ }
+  .awardsContainer{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .awardsContainer > img{
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+  }
+  .awardsLeftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+  }
+  .awardsRightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+  }
+  .award{
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+  }
+  .award:hover{
+    background-color: #ff8c00;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+ /* awards container ends here */
+/* Records section starts here */
+  
+/* Records section ends here */
+  .funFacts{
+    display: flex;
+    justify-content: space-between;
+  }
+  .funFactsContainer{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 80%;
+    padding-left: 10px;
+  }
+  .funFact{
+    padding: 12px 10px ;
+    border: 2px solid;
+    margin-bottom: 15px;
+    width: fit-content;
+    border-radius: 30px;
+    display: flex;
+  }
+  .funFact:hover{
+    cursor:context-menu;
+    color: #ff8c00;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid #ff8c00;
+  }
+  .funFactText{
+    margin-right: 5px;
+  }
+  .funFactsImage > img {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }

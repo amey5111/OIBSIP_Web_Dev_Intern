@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+h2{
+    width: fit-content;
+    background-color: rgb(40, 177, 231);
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 19px;
+    margin: auto;
+}
+
+button{
+    font-family:monospace;
+    font-size: 30px;
+    font-weight: 700;
+    width: 10%;
+    margin: auto;
+    font-size: 19px;
+    padding: 10px;
+    color: white;
+    border: 2px solid rgb(235, 152, 235);
+    border-radius: 15px;
+    background-color: rgb(235, 152, 235);
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: rgb(235, 152, 235);
+}
+@media (max-width: 768px) {
+    button{
+        width: 50%;
+    }
+}
+img{
+    padding-top: 30px;
+    height: 30%;
+    width: 30%;
+}

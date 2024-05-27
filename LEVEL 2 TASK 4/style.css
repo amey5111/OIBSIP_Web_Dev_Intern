@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+}
+.container{
+    width: fit-content;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    background-color: rgb(40, 177, 231);
+    border-radius: 24px;
+    width: fit-content;
+    padding: 20px 30px;
+    margin: 50px auto;
+    font-size: 50px;
+    padding: 20px auto;
+    color: white;
+}
+@media (max-width: 768px) {
+    .heading{
+        border-radius: 14px;
+        font-size: 23px;
+        margin: 50px 20px;
+    }
+}
+.controlsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.loginButtonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signupButtonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginButtonContainer > img{
+    height: 45%;
+    width: 45%;
+    height: fit-content;
+}
+.signupButtonContainer > img{
+    height: 45%;
+    width: 45%;
+    height: fit-content;
+}
+@media (max-width: 768px) {
+    .loginButtonContainer > img{
+        height: 100%;
+        width: 100%;
+        height: fit-content;
+    }
+    .signupButtonContainer > img{
+        height: 100%;
+        width: 100%;
+        height: fit-content;
+    }
+}
+button{
+    border: none;
+    font-size: 19px;
+    padding: 20px 30px;
+    border: 2px solid rgb(235, 152, 235);
+    border-radius: 15px;
+    background-color: rgb(235, 152, 235);
+    cursor: pointer;
+    width: 30%;
+}
+@media (max-width: 768px) {
+    button{
+        font-size: 12px;
+        padding: 10px 15px;
+        border-radius: 12px;
+        text-align: center;
+        width: 50%;
+    }
+}
+button:hover{
+    background-color: white;
+    font-weight: 600;
+    color: rgb(235, 152, 235);
+}

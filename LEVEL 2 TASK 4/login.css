@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    height: 95vh;
+    width: 95vw;
+    justify-content: space-around;
+}
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+}
+.loginImage{
+    width: 65%;
+}
+@media (max-width: 768px) {
+    .loginImage{
+        width: 100%;
+    }
+}
+.loginImage >img{
+    width: 75%;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .loginImage > Img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.loginForm{
+    width: 30%;
+    height: 65%;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgb(132, 209, 240);
+}
+@media (max-width: 768px) {
+    .loginForm{
+        width: 100%;
+    }
+}
+.loginForm >form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 85%;
+    height: fit-content;
+    margin: 60px auto;
+}
+label{
+    font-family:monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+    label{
+        font-size: 23px;
+    }
+}
+.formField{
+    font-size: 19px;
+    border: none;
+    padding: 5px 10px;
+    width: 90%;
+    border-radius: 12px;
+    text-align: center;
+}
+.btn{
+    font-family:monospace;
+    font-size: 30px;
+    font-weight: 700;
+    width: 55%;
+    margin: auto;
+    font-size: 19px;
+    padding: 5px 10px;
+    color: white;
+    border: 2px solid rgb(235, 152, 235);
+    border-radius: 15px;
+    background-color: rgb(235, 152, 235);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(235, 152, 235);
+}
+.signupLink{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 10px;
+    margin: 15px auto;
+    font-weight: 600;
+    background-color: white;
+    color: rgb(235, 152, 235);
+    border-radius: 14px;
+}
+.signupLink:hover{
+    color: rgb(132, 209, 240);
+}

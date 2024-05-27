@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4d8ac8 ;
+}
+.container{
+    width: 35%;
+    height: 80%;
+    margin: 30px auto;
+    background-color: #ebf5ff;
+    border-radius: 19px;
+    padding: 25px 10px 20px 10px;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px 10px;
+    }
+}
+.display{
+    height: 20%;
+    margin: 15px;
+    background-color: #cce5ff;
+    margin-bottom: 15px;
+    border-radius: 14px;
+}
+.smallUpperPart{
+    font-size: 19px;
+    padding: 10px 15px;
+}
+.bigLowerPart{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: right;
+    padding: 10px 15px;
+}
+/* button container starts here */
+.controls{
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 12px;
+    row-gap: 12px;
+    text-align: center;
+}
+.calciButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 14px;
+    margin: auto;
+    font-size: 25px;
+    border: 2px solid #ebf5ff;
+}
+@media (max-width: 768px) {
+    .calciButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        border-radius: 14px;
+        margin: auto;
+        font-size: 20px;
+        border: 2px solid #ebf5ff;
+    }
+}
+.lightButton{
+    background-color: #cce6fd;
+    font-weight: 900;
+}
+.lightButton:hover{
+    background-color: white;
+    border: 2px solid #a1d1f9;
+}
+.darkBtn{
+    background-color: #a1d1f9;
+}
+.darkBtn:hover{
+    background-color: white;
+    border: 2px solid #a1d1f9;
+}
+.enterBtn{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    height: auto;
+    width: 90%;
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: #4d8ac8 ;
+}
+.enterBtn:hover{
+    background-color: #cce5ff;
+    color: #4d8ac8;
+}
